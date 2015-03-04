@@ -113,3 +113,50 @@ tr.parent a[href^="/"] {
 	text-align:center;
 	font-size:.75em;
 }
+
+/*------------------------------------*\
+    Custom
+\*------------------------------------*/
+.mamp {
+	position: relative;
+	background-color: #222222;
+	height: 62px;
+	overflow: none;
+}
+.mamp ul {
+	height: 62px;
+}
+.mamp li {
+	padding: 15px;
+	float:left;
+	list-style-type: none;
+}
+.mamp li a {
+	color: #61666c;
+}
+.mamp li a:hover {
+	color: #fff;
+}
+.mamp img {
+	height:100px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	right:0;
+	opacity: 0.4;
+}
+
+.clr:before,
+.clr:after {
+  content:"";
+  display:table;
+}
+.clr:after {
+  clear:both;
+}
+.clr {
+  zoom:1;
+}
