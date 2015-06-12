@@ -12,4 +12,14 @@ jQuery(document).ready(function($){
 		});
 	});
 
+	$('table tr td:nth-child(3n)').wrapInner('<p class="center"></p>');
+
+	$(window).resize(function(){
+		var headerH = $('.mamp').innerHeight(),
+			tableH = $('table').innerHeight(),
+			mampH = headerH + tableH;
+
+		$('.wrapper').css('max-height', mampH);
+	}).resize();
+
 });
