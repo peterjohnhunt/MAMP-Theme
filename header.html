@@ -1,17 +1,93 @@
-<div class="wrapper">
-	<div class="mamp">
-		<ul>
-			<li>
-				<a href="/MAMP">
-					MAMP Admin
-				</a>
-			</li>
-			<li>
-				<a href="/MAMP/phpmyadmin.php?lang=en">
-					PHP MyAdmin
-				</a>
-			</li>
-			<img src="/MAMP-Theme/images/mampLogoCarouselLeft.png" alt="">
-		</ul>
+<div class="dashboard">
+	<div class="header">
+		<div class="logo">
+			<img src="/MAMP-Theme/images/mamp.png">
+		</div>
+
+		<div class="accountSwitcher">
+			<h2>Switch Account</h2>
+			<ul>
+				<li class="owner">
+					<div class="account active">
+						<p>Jeff's Local Index</p>
+						<div class="avatar" style="background-image:url('/MAMP-Theme/images/jeff.jpg')"></div>
+					</div>
+				</li>
+				<li>
+					<div class="account">
+						<p>Phil's CodeKit</p>
+						<div class="avatar" style="background-image:url('/MAMP-Theme/images/phil.jpg')"></div>
+					</div>
+					<span class="iframe-src">http://phils-macbook-pro.local:8888/</span>
+				</li>
+				<li>
+					<div class="account">
+						<p>Juan's CodeKit</p>
+						<div class="avatar" style="background-image:url('/MAMP-Theme/images/juan.jpg')"></div>
+					</div>
+					<span class="iframe-src">http://juans-macbook-pro-2.local:8888/</span>
+				</li>
+				<li>
+					<div class="account">
+						<p>Dan's CodeKit</p>
+						<div class="avatar" style="background-image:url('/MAMP-Theme/images/dan.jpg')"></div>
+					</div>
+					<span class="iframe-src">http://dang-macbook-pro.local:8888/</span>
+				</li>
+			</ul>
+		</div>
+
+		<div class="title">
+			<h1>LOCAL DASHBOARD</h1>
+			<!-- <img src="/MAMP-Theme/images/logo-shreve.png"> -->
+		</div>
+
+		<div class="currentAccount">
+			<ul>
+				<li class="jeff active">
+					<h2>Jeff's Local Index</h2>
+					<div class="avatar" style="background-image:url('/MAMP-Theme/images/jeff.jpg')"></div>
+				</li>
+				<li class="phil">
+					<h2>Phil's CodeKit</h2>
+					<div class="avatar" style="background-image:url('/MAMP-Theme/images/phil.jpg')"></div>
+				</li>
+				<li class="juan">
+					<h2>Juan's CodeKit</h2>
+					<div class="avatar" style="background-image:url('/MAMP-Theme/images/juan.jpg')"></div>
+				</li>
+				<li class="dan">
+					<h2>Dan's CodeKit</h2>
+					<div class="avatar" style="background-image:url('/MAMP-Theme/images/dan.jpg')"></div>
+				</li>
+			</ul>
+		</div>
 	</div>
-<!-- we open the `wrapper` element here, but close it in the `footer.html` file -->
+
+	<ul class="sidebar">
+		<li>
+			<a href="/MAMP"><img src="/MAMP-Theme/images/mamp-admin.png"></a>
+			<p>MAMP Admin</p>
+		</li>
+		<li>
+			<a href="/MAMP/phpmyadmin.php?lang=en"><img src="/MAMP-Theme/images/phpmyadmin.png"></a>
+			<p>phpMyAdmin</p>
+		</li>
+		<li>
+			<a href="https://trello.com/b/4gvN1agD/front-end-development"><img src="/MAMP-Theme/images/trello.png"></a>
+			<p>Trello Board</p>
+		</li>
+		<li>
+			<a href="http://s533195663.onlinehome.us/iframeforms/"><img src="/MAMP-Theme/images/gravityfields.png"></a>
+			<p>GravityForm iFrames</p>
+		</li>
+		<li>
+			<a href="http://caniuse.com"><img src="/MAMP-Theme/images/caniuse.png"></a>
+			<p>Can I Use</p>
+		</li>
+	</ul>
+
+
+	<iframe src="" frameborder="0" class="scootchOver"></iframe>
+
+<!-- Dashboard started in 'header.html' but closed in 'footer.html' -->
